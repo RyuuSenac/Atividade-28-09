@@ -1,7 +1,5 @@
 # Atividade: Preparando o banco para o login com Google
 
-## Conteúdo do arquivo `r.txt`
-
 ```text
 1. Pesquise
     1.1 Quais informações do usuário o Google envia para o sistema quando a pessoa faz login? 
