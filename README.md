@@ -1,7 +1,6 @@
 # Atividade: Preparando o banco para o login com Google
 
-> **Tema:** OAuth 2.0 e autenticação com Google  
-> **Objetivo:** preparar e adaptar o banco de dados para receber usuários autenticados pelo Google.
+> **Contexto:** O nosso sistema System Auth hoje só permite login com e-mail e senha. Na próxima etapa vamos adicionar o botão "Entrar com Google", usando o OAuth 2.0. Antes de programar, precisamos preparar o banco de dados para receber as informações que o Google vai enviar quando o usuário fizer login.
 
 ---
 
