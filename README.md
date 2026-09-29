@@ -120,5 +120,5 @@ ALTER TABLE usuarios
     ADD COLUMN img TEXT;
 
 DESCRIBE usuarios;
-
+```
 ![DESCRIBE](DESCRIBE.png)
