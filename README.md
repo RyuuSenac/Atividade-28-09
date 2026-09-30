@@ -110,13 +110,13 @@ Além disso, o token possui campos técnicos:
 
 ```sql
 ALTER TABLE usuarios
-    DROP COLUMN senha,
-
     ADD COLUMN email_verificado BOOLEAN NOT NULL DEFAULT FALSE,
     ADD COLUMN google_sub VARCHAR(255) UNIQUE,
     ADD COLUMN given_name VARCHAR(100),
     ADD COLUMN family_name VARCHAR(100),
     ADD COLUMN img TEXT;
+
+ALTER TABLE usuarios MODIFY senha VARCHAR(255) NULL;
 
 DESCRIBE usuarios;
 ```
